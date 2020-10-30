@@ -1,0 +1,42 @@
+{
+  "name": "javascript-prac",
+  "version": "1.0.0",
+  "description": "practice questions, problem solving",
+  "main": "index.js",
+  "scripts": {
+    "build-d": "webpack --mode development",
+    "build-p": "webpack --mode production",
+    "start": "node dist/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/keenanvb/javascript-prac.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "archiver": "^3.0.0",
+    "crypto-js": "^3.1.9-1",
+    "xlsx": "^0.14.3"
+  },
+  "devDependencies": {
+    "eslint": "^7.2.0",
+    "eslint-config-airbnb": "^18.2.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-config-node": "^4.1.0",
+    "eslint-config-prettier": "^6.14.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsx-a11y": "^6.3.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-react": "^7.21.5",
+    "eslint-plugin-react-hooks": "^4.0.0",
+    "prettier": "^2.1.2",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0"
+  },
+  "bugs": {
+    "url": "https://github.com/keenanvb/javascript-prac/issues"
+  },
+  "homepage": "https://github.com/keenanvb/javascript-prac#readme"
+}
