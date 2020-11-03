@@ -1,16 +1,16 @@
-let array = 'LRLRLR';
-let balanced = (s) => {
+const array = 'LRLRLR';
+const balanced = (s) => {
    let rightCount = 0;
    let leftCount = 0;
    let count = 0;
-   for (i = 0; i < s.length; i++) {
-      if (array.charAt(i).toLowerCase() == 'l') {
+   for (let i = 0; i < s.length; i++) {
+      if (array.charAt(i).toLowerCase() === 'l') {
          leftCount++;
       } else {
          rightCount++;
       }
 
-      if (rightCount == leftCount) {
+      if (rightCount === leftCount) {
          count++;
          leftCount = 0;
          rightCount = 0;
